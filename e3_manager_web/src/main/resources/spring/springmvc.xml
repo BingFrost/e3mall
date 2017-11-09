@@ -26,5 +26,6 @@
 	<!-- 指定监听器对象是zookeeper -->
 	<dubbo:registry protocol="zookeeper" address="192.168.198.128:2181"/>	
 	<dubbo:reference interface="cn.e3mall.service.ItemService" id="itemService" />
+	<dubbo:reference interface="cn.e3mall.service.ItemCatService" id="itemCatService" />
 	
 </beans>
